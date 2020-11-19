@@ -113,7 +113,7 @@ function generateMainPage() {
 function generateCorrectPage() {
    return `
   <div class='correctPage'>
-  <h2>Yay! Great job!</h2>
+  <h2>Correct!</h2>
   <p>Current Score: ${store.score}</p>
   <button id='nextQuestion' type="button">Next</button>
   </div>
